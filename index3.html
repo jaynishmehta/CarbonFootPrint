@@ -16,7 +16,7 @@
             <div class="form-example-1">
                 <label for="name">Enter the petrol consumption   </label>
             
-                <input type="text" name="name" id="petrol" required />
+                <input type="text" name="name" id="petrol"  required />
             </div>
             <div class="form-example-2">
                 <label for="name">Enter the diesel consumption   </label>
@@ -63,11 +63,15 @@
         <div class="inner1">
             <!-- <button>PROCEED NOW !</button> -->
             <!-- Link to index3.html with anchor tag -->
-            <a href="index4.html"><button>PROCEED NOW !</button></a>
+            <!-- <a href="index4.html"><button>PROCEED NOW !</button></a> -->
+            <button onclick="saveToLocalstorage1('index4.html')">PROCEED NOW !</button>
+            <!-- <a href="index6.html?petrol=10&diesel=20"><button>PROCEED NOW !</button></a> -->
+              <!--in above line forcefully fetching data at index 6-->
         </div>
        </div>
        
     <script src="myscript.js"></script>
+   
 
 </body>
 </html>

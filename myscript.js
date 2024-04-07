@@ -83,3 +83,4 @@
     let ans1 =scope1 +scope2+scope3;
     ans =ans1.toFixed(3);
         result.innerHTML= `${ans} Tons `;
+        plantation_required.innerHTML=`YOU SHOULD PLANT ${Math.ceil((ans/90.6))} TREES`;
